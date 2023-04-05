@@ -1,0 +1,14 @@
+public class DongVatCoVu extends DongVat {
+    private int soChan;
+    private String mauLong;
+    private int soRang;
+    private String tapTinh;
+
+    public DongVatCoVu(String ten, String loai, float chieuCao, float canNang, String moiTruongSong, String hinhThucSinhSan, int soChan, String mauLong, int soRang, String tapTinh) {
+        super(ten, loai, chieuCao, canNang, moiTruongSong, hinhThucSinhSan);
+        this.soChan = soChan;
+        this.mauLong = mauLong;
+        this.soRang = soRang;
+        this.tapTinh = tapTinh;
+    }
+}
