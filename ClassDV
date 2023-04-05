@@ -1,0 +1,33 @@
+public class DongVat {
+    private String ten;
+    private String loai;
+    private float chieuCao;
+    private float canNang;
+    private String moiTruongSong;
+    private String hinhThucSinhSan;
+
+    public DongVat(String ten, String loai, float chieuCao, float canNang, String moiTruongSong, String hinhThucSinhSan) {
+        this.ten = ten;
+        this.loai = loai;
+        this.chieuCao = chieuCao;
+        this.canNang = canNang;
+        this.moiTruongSong = moiTruongSong;
+        this.hinhThucSinhSan = hinhThucSinhSan;
+    }
+
+    public void an() {
+        System.out.println("Dong vat an");
+    }
+
+    public void nguNghi() {
+        System.out.println("Dong vat ngu nghi");
+    }
+
+    public void diChuyen() {
+        System.out.println("Dong vat di chuyen");
+    }
+
+    public void giaiTri() {
+        System.out.println("Dong vat giai tri");
+    }
+}
